@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="./style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+<body>
+
+    <!-- Header section -->
+     <header class="header">
+        <nav class="nav bd_grid">
+            <div>
+                <a href="#" class="nav_logo">Portfolio</a>
+            </div>
+
+            <div class="nav_menu" id="nav_menu">
+                <ul class="nav_list">
+                    <li class="nav_item"><a href="#home" class="nav_link active">Home</a></li>
+                    <li class="nav_item"><a href="#about" class="nav_link active">About</a></li>
+                    <li class="nav_item"><a href="#skill" class="nav_link active">Skill</a></li>
+                    <li class="nav_item"><a href="#work" class="nav_link active">Work</a></li>
+                    <li class="nav_item"><a href="#contact" class="nav_link active">Contact</a></li>
+                </ul>
+            </div>
+
+            <div class="nav_toggle" id="nav_toggle">
+                <i class='bx bx-menu'></i>
+            </div>
+        </nav>
+    </header>
+
+    <main class="main">
+        <!-- Home section -->
+        <section class="home bd_grid" id="home">
+            <div class="home_data"  data-aos="fade-down">
+                <h1 class="home_title">Hi, <br> I'm 
+                <span class="title-color">Saravanan</span>
+                <br> Web Designer</h1>
+                <a href="#contact" class="button">Contact</a>
+            </div>
+        </section>
+
+        <div class="home_social" >
+            <a href="#" class="home_social-icon" data-aos="fade-down"><i class='bx bxl-instagram'></i></a>
+            <a href="#" class="home_social-icon" data-aos="fade-down" data-aos-delay="50"><i class='bx bxl-twitter' ></i></a>
+            <a href="#" class="home_social-icon" data-aos="fade-down" data-aos-delay="50"><i class='bx bxl-github' ></i></a>
+            <!-- <a href="#" class="home_social-icon"></a> -->
+        </div>
+
+        <div class="home_img" data-aos="fade-down" data-aos-delay="500" >
+            <!-- <div class="home_item"> -->
+                <!-- <img src="./undraw_finance-guy-avatar_vhop (1).png" alt=""> -->
+            <!-- </div> -->
+        </div>
+
+        <!-- about section -->
+        <section class="about section" id="about">
+            <h2 class="section_title"data-aos="fade-down">About</h2>
+
+            <div class="about_container bd_grid">
+                <div class="about_img" data-aos="fade-down" data-aos-delay="50">
+                    <img src="./undraw_programming_j1zw.png" alt="" class="image" data-aos="fade-down" data-aos-delay="400">
+                </div>
+                <div>
+                    <h2 class="about_title" data-aos="fade-down" data-aos-delay="350">I'm Saravanan</h2>
+                    <p class="about_text" data-aos="fade-down" data-aos-delay="450">Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui, saepe. Quis voluptate numquam eius incidunt beatae minima, dolores tempora sunt!</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- skill section -->
+        <section class="skill section" id="skill">
+            <h2 class="section_title" data-aos="fade-down">Skills</h2>
+            <div class="skill_container bd_grid">
+                <div>
+                    <h2 class="skill_subtitle" data-aos="fade-down" data-aos-delay="250">Professional Skills</h2>
+                    <p class="skill_text" data-aos="fade-down" data-aos-delay="350">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, debitis!</p>
+                    <!-- skill html -->
+                    <div class="skill_data" data-aos="fade-right">
+                        <div class="skill_name">
+                            <i class='bx bxl-html5 skill_icon'></i>
+                            <span class="skill_icon-name">HTML5</span>
+                        </div>
+
+                        <div><span class="skill_percent">95%</span></div>
+                        
+                        <div class="skill_bar skill_html"></div>
+                    </div>
+
+                    <!-- skill css -->
+                    <div class="skill_data" data-aos="fade-right" data-aos-delay="250">
+                        <div class="skill_name">
+                            <i class='bx bxl-css3 skill_icon' ></i>
+                            <span class="skill_icon-name">CSS3</span>
+                        </div>
+
+                        <div><span class="skill_percent">85%</span></div>
+                        
+                        <div class="skill_bar skill_css"></div>
+                    </div>
+
+                    <!-- skill js -->
+                    <div class="skill_data" data-aos="fade-right" data-aos-delay="250">
+                        <div class="skill_name">
+                            <i class='bx bxl-javascript skill_icon' ></i>
+                            <span class="skill_icon-name">JS</span>
+                        </div>
+
+                        <div><span class="skill_percent">75%</span></div>
+                        
+                        <div class="skill_bar skill_js"></div>
+                    </div>
+
+                    <!-- skill ui/ux -->
+                    <div class="skill_data" data-aos="fade-right" data-aos-delay="250">
+                        <div class="skill_name">
+                            <i class='bx bxs-paint skill_icon' ></i>
+                            <span class="skill_icon-name">UI/UX</span>
+                        </div>
+
+                        <div><span class="skill_percent">85%</span></div>
+                        
+                        <div class="skill_bar skill_ui"></div>
+                    </div>
+
+                </div>
+
+                <div data-aos="fade-left" data-aos-delay="350">
+                    <img src="./undraw_percentages_wi9e.png" alt="" class="skill_img">
+                </div>
+            </div>
+        </section>
+
+        <!-- work section -->
+         <section class="work section" id="work">
+            <h2 class="section_title" data-aos="fade-down">Work</h2>
+
+            <div class="work_container bd_grid" data-aos="fade-down" data-aos-delay="250">
+                <div class="work_img">
+                    <img src="https://img.freepik.com/free-photo/side-view-cropped-unrecognizable-business-people-working-common-desk_1098-20474.jpg?semt=ais_hybrid&w=740&q=80" alt="">
+                </div>
+                <div class="work_img">
+                    <img src="https://burst.shopifycdn.com/photos/macbook-air-on-desk.jpg?width=1000&format=pjpg&exif=0&iptc=0" alt="">
+                </div>
+                <div class="work_img">
+                    <img src="https://img.freepik.com/free-photo/flat-lay-office-desk-assortment-with-empty-screen-tablet_23-2148707960.jpg?semt=ais_hybrid&w=740" alt="">
+                </div>
+                <div class="work_img">
+                    <img src="https://burst.shopifycdn.com/photos/macbook-air-on-desk.jpg?width=1000&format=pjpg&exif=0&iptc=0" alt="">
+                </div>
+                <div class="work_img">
+                    <img src="https://img.freepik.com/free-photo/flat-lay-office-desk-assortment-with-empty-screen-tablet_23-2148707960.jpg?semt=ais_hybrid&w=740" alt="">
+                </div>
+                <div class="work_img">
+                    <img src="https://img.freepik.com/free-photo/side-view-cropped-unrecognizable-business-people-working-common-desk_1098-20474.jpg?semt=ais_hybrid&w=740&q=80" alt="">
+                </div>
+            </div>
+         </section>
+
+         <!-- contact section -->
+        <section class="contact section" id="contact">
+            <h2 class="section_title" data-aos="fade-down">Contact</h2>
+
+            <div class="contact_container bd_grid">
+                <form action="#" class="contact_form">
+                    <input type="text" placeholder="Name" class="control_input" data-aos="fade-right" data-aos-delay="250">
+                    <input type="mail" placeholder="Email" class="control_input" data-aos="fade-right" data-aos-delay="350">
+                    <textarea name="" id="" cols="0" rows="10" class="control_input" data-aos="fade-right" data-aos-delay="450"></textarea>
+
+                    <button type="button" value="Send" class="control_button" data-aos="fade-right" data-aos-delay="550">Send</button>
+                </form>
+            </div>
+        </section>
+
+        <!-- footer -->
+         <footer class="footer">
+            <p class="footer_title" data-aos="fade-down">Saravanan</p>
+            <div class="footer_social">
+                <a href="#" class="footer_icon" data-aos="fade-down" data-aos-delay="250"><i class='bx bxl-instagram'></i></a>
+                <a href="#" class="footer_icon" data-aos="fade-right" data-aos-delay="350"><i class='bx bxl-twitter' ></i></a>
+                <a href="#" class="footer_icon" data-aos="fade-right" data-aos-delay="450"><i class='bx bxl-github' ></i></a>
+            </div>
+            <p>&#169; 2026 copyright all right reserverd</p>
+         </footer>
+            
+    </main>
+
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="./main.js"></script>
+
+    <script>
+  AOS.init( {
+    duration: 500,
+    once: false,
+  });
+</script>
+
+</body>
+</html>
